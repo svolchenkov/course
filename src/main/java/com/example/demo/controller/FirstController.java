@@ -14,7 +14,7 @@ public class FirstController {
 
 
         return ResponseEntity.status(HttpStatus.OK)
-                .body("test");
+                .body("test-");
     }
 
 }
