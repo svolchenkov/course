@@ -1,0 +1,9 @@
+---
+applications:
+- name: regiesergey
+  routers:
+  - route: regiesergeygreen
+  memory: 768M
+  instances: 1
+  random-route: false
+  path: demo-0.0.2.jar
