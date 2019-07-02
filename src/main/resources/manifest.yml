@@ -1,0 +1,9 @@
+---
+applications:
+- name: demo-0.0.1-SNAPSHOT
+  memory: 768M
+  instances: 1
+  random-route: true
+  path: demo-0.0.1-SNAPSHOT.jar
+  buildpacks:
+  - https://github.com/cloudfoundry/java-buildpack
